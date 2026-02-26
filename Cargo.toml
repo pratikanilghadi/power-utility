@@ -1,6 +1,12 @@
-[package]
-name = "power-utility"
+[workspace]
+members = [
+    "crates/daemon",
+    "crates/power-core",
+    "crates/modules/colorpicker",
+    "crates/modules/launcher",
+]
+resolver = "2"
+
+[workspace.package]
 version = "0.1.0"
 edition = "2024"
-
-[dependencies]
