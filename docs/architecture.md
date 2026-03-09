@@ -124,7 +124,9 @@ powertoys-linux/
 The Background process which run after the system as been booted.
 As of now the only purpose it serves is to listen to keys and activate the corresponding utility.
 This includes `main.rs`, `hotkeys.rs`, `tray.rs`, `plugin_loader.rs` and `config.rs`.
+The output for this will be power-utility-daemon.
 
 ### 2. Core Library (crates/power-core)
 
 The core library will consist of the shared code used by all the modules and or plugins.
+This includes  `lib.rs`, `plugin_api.rs`, `config.rs`, `overlay.rs`,
